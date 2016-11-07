@@ -3,7 +3,7 @@ import pymongo
 import os
 
 class Database(object) :
-    URI = URI = os.environ.get("MONGODB_URI")
+    URI = os.environ.get("MONGODB_URI")
     DATABASE_NAME="fullstack"
     DATABASE = None
 
